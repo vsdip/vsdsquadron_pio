@@ -2,7 +2,7 @@
   "name": "ch32v",
   "version": "1.1.0",
   "title": "VSDSquadron",
-  "description": "CH32V series are industrial-grade general-purpose microcontrollers designed based on QingKe 32-bit RISC-V.",
+  "description": "VSDSquadron are industrial-grade general-purpose development boards designed based on RISC-V.",
   "homepage": "https://www.wch.cn/",
   "license": "Apache-2.0",
   "keywords": [
