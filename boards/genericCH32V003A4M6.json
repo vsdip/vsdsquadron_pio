@@ -1,7 +1,7 @@
 {
   "build": {
     "f_cpu": "48000000L",
-    "extra_flags": "-DCH32V003F4 -DCH32V00X -DCH32V003",
+    "extra_flags": "-DCH32V003A4 -DCH32V00X -DCH32V003",
     "hwids": [
       [
         "0x1A86",
@@ -10,7 +10,7 @@
     ],
     "mabi": "ilp32e",
     "march": "rv32ecxw",
-    "mcu": "ch32v003f4u6",
+    "mcu": "ch32v003a4m6",
     "series": "ch32v003",
     "core": "ch32v003",
     "variant": "CH32V003"
@@ -26,7 +26,7 @@
     "noneos-sdk",
     "arduino"
   ],
-  "name": "VSDSquadron Mini",
+  "name": "Generic CH32V003A4M6",
   "upload": {
     "maximum_ram_size": 2048,
     "maximum_size": 16384,

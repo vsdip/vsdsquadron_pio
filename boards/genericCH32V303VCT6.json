@@ -1,0 +1,43 @@
+{
+  "build": {
+    "f_cpu": "144000000L",
+    "extra_flags": "-DCH32V303VC -DCH32V30X -DCH32V303 -DCH32V30x_D8",
+    "hwids": [
+      [
+        "0x1A86",
+        "0x8010"
+      ]
+    ],
+    "mabi": "ilp32",
+    "march": "rv32imacxw",
+    "mcu": "ch32v303vct6",
+    "series": "ch32v303"
+  },
+  "debug": {
+    "onboard_tools": [
+      "wch-link"
+    ],
+    "openocd_config": "wch-riscv.cfg",
+    "svd_path": "CH32V303xx.svd"
+  },
+  "frameworks": [
+    "noneos-sdk",
+    "freertos",
+    "harmony-liteos",
+    "rt-thread",
+    "tencent-os"
+  ],
+  "name": "Generic CH32V303VCT6",
+  "upload": {
+    "maximum_ram_size": 65536,
+    "maximum_size": 262144,
+    "protocols": [
+      "wch-link",
+      "minichlink",
+      "isp"
+    ],
+    "protocol": "wch-link"
+  },
+  "url": "http://www.wch-ic.com/products/CH32V303.html",
+  "vendor": "W.CH"
+}
