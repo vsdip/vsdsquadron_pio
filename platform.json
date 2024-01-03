@@ -1,0 +1,59 @@
+{
+  "name": "VSDSquadron",
+  "version": "1.0",
+  "title": "VSDSquadron",
+  "description": "VSDSquadron is a family of development boards based on 32-bit RISC-V.",
+  "homepage": "https://www.vlsisystemdesign.com/",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dev-platform",
+    "VSDSquadron",
+    "RISC-V"
+  ],
+  "engines": {
+    "platformio": "^6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yathAg/vsdsquadron_pio.git"
+  },
+  "frameworks": {
+    "noneos-sdk": {
+      "package": "framework-wch-noneos-sdk",
+      "script": "builder/frameworks/noneos_sdk.py",
+      "description": "The W.CH CH32Vxxx Standard Peripheral Library without OS",
+      "homepage": "https://www.wch.cn/downloads/",
+      "title": "W.CH CH32Vxxx NoneOS SDK"
+    }
+  },
+  "packages": {
+    "framework-wch-noneos-sdk": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "https://github.com/Community-PIO-CH32V/framework-wch-noneos-sdk.git"
+    },
+    "toolchain-riscv": {
+      "type": "toolchain",
+      "owner": "platformio",
+      "version": "https://github.com/Community-PIO-CH32V/toolchain-riscv-windows.git"
+    },
+    "tool-openocd-riscv-wch": {
+      "type": "uploader",
+      "owner": "community-ch32v",
+      "version": "~2.1100.230329"
+    },
+    "tool-wchisp": {
+      "type": "uploader",
+      "owner": "community-ch32v",
+      "version": "~0.22.230228",
+      "optional": true
+    },
+    "tool-minichlink": {
+      "type": "uploader",
+      "owner": "community-ch32v",
+      "version": "https://github.com/Community-PIO-CH32V/tool-minichlink.git",
+      "optional": true
+    }
+  }
+}
