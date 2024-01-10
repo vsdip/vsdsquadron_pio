@@ -23,8 +23,7 @@
     "svd_path": "CH32V003xx.svd"
   },
   "frameworks": [
-    "noneos-sdk",
-    "arduino"
+    "noneos-sdk"
   ],
   "name": "VSDSquadron Mini",
   "upload": {
@@ -37,6 +36,6 @@
     ],
     "protocol": "wch-link"
   },
-  "url": "http://www.wch-ic.com/products/CH32V003.html",
-  "vendor": "W.CH"
+  "url": "https://www.vlsisystemdesign.com/",
+  "vendor": "VLSI System Design"
 }
