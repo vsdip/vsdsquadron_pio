@@ -1,14 +1,4 @@
-#if defined(CH32V00X)
 #include <ch32v00x.h>
-#elif defined(CH32V10X)
-#include <ch32v10x.h>
-#elif defined(CH32V20X)
-#include <ch32v20x.h>
-#elif defined(CH32V30X)
-#include <ch32v30x.h>
-#elif defined (CH32X035)
-#include <ch32x035.h>
-#endif
 #include <debug.h>
 
 #define BLINKY_GPIO_PORT GPIOD
@@ -39,7 +29,7 @@ int main(void)
 	{
 		GPIO_WriteBit(BLINKY_GPIO_PORT, BLINKY_GPIO_PIN, ledState);
 		ledState ^= 1; // invert for the next run
-		Delay_Ms(5000);
+		Delay_Ms(10000);
 	}
 }
 
