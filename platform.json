@@ -1,9 +1,9 @@
 {
   "name": "ch32v",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "title": "VSDSquadron",
   "description": "VSDSquadron are industrial-grade general-purpose development boards designed based on RISC-V.",
-  "homepage": "https://www.wch.cn/",
+  "homepage": "https://www.vlsisystemdesign.com/",
   "license": "Apache-2.0",
   "keywords": [
     "dev-platform",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Community-PIO-CH32V/platform-ch32v"
+    "url": "https://github.com/yathAg/vsdsquadron_pio"
   },
   "frameworks": {
     "noneos-sdk": {

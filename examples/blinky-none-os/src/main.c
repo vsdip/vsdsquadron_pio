@@ -29,7 +29,7 @@ int main(void)
 	{
 		GPIO_WriteBit(BLINKY_GPIO_PORT, BLINKY_GPIO_PIN, ledState);
 		ledState ^= 1; // invert for the next run
-		Delay_Ms(1000);
+		Delay_Ms(5000);
 	}
 }
 
