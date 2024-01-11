@@ -37,19 +37,19 @@ The VSDSQUADRON platform should now be successfully installed.
 
 ## Uploading blink example
 
-Click on platforms
-click on vsdsquadron
+- Click on platforms
+- click on vsdsquadron
 
 ![Advanced Installation](docs/platform_home.png)
 
-click on Examples
-click on import
+- click on Examples
+- click on import
 
 ![Advanced Installation](docs/import_example.png)
 
-Under vsdsquadronMini
-click build
-click upload
+- Under vsdsquadronMini
+- click build
+- click upload
 
 ![Advanced Installation](docs/build_upload.png)
 
