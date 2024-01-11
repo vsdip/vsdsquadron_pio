@@ -1,4 +1,4 @@
-# vsdsquadron_pio
+# VSDSQUADRON Platform IO
 
 ## VSDSquadron Development Environment Installation Guide
 
@@ -19,14 +19,34 @@ Download and install VSCode from [https://code.visualstudio.com/](https://code.v
 
 ![PIO Home](docs/pio_home.png)
 
-2. In the PIO Home window, click on the "Platforms" sidebar and choose “Advanced Installation”.
+2.In the PIO Home window, click on the "Platforms" sidebar and choose “Advanced Installation”.
 
 ![Advanced Installation](docs/platform_install.png)
 
-3. Enter the following repository URL when prompted and press "Install".
+3.Enter the following repository URL when prompted and press "Install".
 
-> [https://github.com/yathAg/vsdsquadron_pio](https://github.com/yathAg/vsdsquadron_pio)
+> [https://github.com/yathAg/vsdsquadron_pio.git](https://github.com/yathAg/vsdsquadron_pio.git)
 
 ![Platform Installation](docs/platform_install_2.png)
 
-The CH32V platform should now be successfully installed.
+The VSDSQUADRON platform should now be successfully installed.
+
+## Installing Link Utility
+
+## Understanding Platform IO Development Environment
+
+## Uploading blink example 
+Click on platforms
+click on vsdsquadron
+![Advanced Installation](docs/platform_home.png)
+
+click on Examples
+click on import
+![Advanced Installation](docs/import_examplel.png)
+
+Under vsdsquadronMini
+click build
+click upload
+![Advanced Installation](docs/build_upload.png)
+
+Try with different delays.
