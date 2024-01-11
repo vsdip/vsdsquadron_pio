@@ -35,18 +35,22 @@ The VSDSQUADRON platform should now be successfully installed.
 
 ## Understanding Platform IO Development Environment
 
-## Uploading blink example 
+## Uploading blink example
+
 Click on platforms
 click on vsdsquadron
+
 ![Advanced Installation](docs/platform_home.png)
 
 click on Examples
 click on import
-![Advanced Installation](docs/import_examplel.png)
+
+![Advanced Installation](docs/import_example.png)
 
 Under vsdsquadronMini
 click build
 click upload
+
 ![Advanced Installation](docs/build_upload.png)
 
 Try with different delays.
