@@ -25,7 +25,7 @@ Download and install VSCode from [https://code.visualstudio.com/](https://code.v
 
 3.Enter the following repository URL when prompted and press "Install".
 
-> [https://github.com/yathAg/vsdsquadron_pio.git](https://github.com/yathAg/vsdsquadron_pio.git)
+> [https://github.com/vsdip/vsdsquadron_pio.git](https://github.com/vsdip/vsdsquadron_pio.git)
 
 ![Platform Installation](docs/platform_install_2.png)
 
@@ -54,3 +54,13 @@ The VSDSQUADRON platform should now be successfully installed.
 ![Advanced Installation](docs/build_upload.png)
 
 Try with different delays.
+
+## Acknowledgemnets
+
+This work is a modification of the projects available at [https://github.com/Community-PIO-CH32V/platform-ch32v](https://github.com/Community-PIO-CH32V/platform-ch32v). The VSD team expresses sincere gratitude to the open-source community for their valuable contributions.
+
+We are enthusiastic about contributing to and advancing the development of open-source tools and fostering a collaborative community. Your support and involvement are essential to the success of this project.
+
+Thank you for being part of our journey!
+
+- The VSD Team
