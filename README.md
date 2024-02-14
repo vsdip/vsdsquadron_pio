@@ -1,4 +1,4 @@
-# VSDSQUADRON Platform IO\
+# VSDSQUADRONMini
 
 ![VSDSQUADRONMini](docs/SquadronMini_2A.png)
 
