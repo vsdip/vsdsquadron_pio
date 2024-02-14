@@ -1,6 +1,6 @@
 # VSDSQUADRON Platform IO\
 
-![VSDSQUADRONMini](docs\SquadronMini_2A.png)
+![VSDSQUADRONMini](docs/SquadronMini_2A.png)
 
 Introducing the VSDSquadron Mini, a versatile powerhouse within the RISC-V landscape that elevates your development to new heights. Whether you’re a newcomer delving into the realm of embedded systems or an experienced developer crafting intricate device, the VSDSquadron Mini is your ideal companion. It seamlessly bridges the gap between theory and practical application, offering an on-board flash programmer with single-wire programming protocol to jumpstart your projects in education and development with proficiency and ease.
 
