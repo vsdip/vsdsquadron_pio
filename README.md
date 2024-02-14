@@ -19,11 +19,11 @@ Download and install VSCode from [https://code.visualstudio.com/](https://code.v
 
 ![PIO Home](docs/pio_home.png)
 
-2.In the PIO Home window, click on the "Platforms" sidebar and choose “Advanced Installation”.
+2. In the PIO Home window, click on the "Platforms" sidebar and choose “Advanced Installation”.
 
 ![Advanced Installation](docs/platform_install.png)
 
-3.Enter the following repository URL when prompted and press "Install".
+3. Enter the following repository URL when prompted and press "Install".
 
 > [https://github.com/vsdip/vsdsquadron_pio.git](https://github.com/vsdip/vsdsquadron_pio.git)
 
@@ -41,8 +41,8 @@ Flashing development boards via a WCH-Link(E) probe (and SWCLK and/or SWDIO conn
 
 1. Download the [WCHLink Driver Windows](https://github.com/Community-PIO-CH32V/wchlink-driver-windows/archive/refs/heads/main.zip) package
 2. Unpack it
-3. Run:code:`WCHLink\\SETUP.EXE` and follow the installation instructions
-4. Run:code:`WCHLinkSER\\SETUP.EXE` and follow the installation instructions
+3. Run:`WCHLink\\SETUP.EXE` and follow the installation instructions
+4. Run:`WCHLinkSER\\SETUP.EXE` and follow the installation instructions
 
 If successful, once you plug in the WCH-Link(E) device, you should have a "serial port" and "interface"-type device in the Windows device manager.
 
@@ -58,7 +58,7 @@ WIP
 ![Advanced Installation](docs/platform_home.png)
 
 - click on Examples
-- click on import
+- click on Import
 
 ![Advanced Installation](docs/import_example.png)
 
