@@ -1,5 +1,5 @@
 # VSDSQUADRONMini
-[![Build Status](https://github.com/vsdip/vsdsquadron_pio/Examples/badge.svg)](https://github.com/vsdip/vsdsquadron_pio/actions)
+[![Build Status](https://github.com/vsdip/vsdsquadron_pio/actions/workflows/main.yml/badge.svg)](https://github.com/vsdip/vsdsquadron_pio/actions)
 
 ![VSDSQUADRONMini](docs/SquadronMini_2A.png)
 
