@@ -62,6 +62,32 @@ WIP
 - click build
 - click upload
 
+## For Ubuntu OS:
+Make sure you have the Udev rules file. It can be found at /etc/udev/rules.d/99-platformio-udev.rules.
+If not don't worry you can obtain it from internet:
+Open terminal in any location:
+type  or paste 
+curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
+
+then insert this command in terminal to open that file:
+sudo -i nano /etc/udev/rules.d/99-platformio-udev.rules
+
+now append just below the end of file:
+SUBSYSTEM=="usb", ATTR{idVendor}="1a86", ATTR{idProduct}=="8010", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}="4348", ATTR{idProduct}=="55e0", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}="1a86", ATTR{idProduct}=="8012", GROUP="plugdev"
+
+press Ctrl+O to save the file.
+
+Now open VSCode and click platform PIO
+disconect and reconnect mini board.
+
+Go to project explorer section inside vscode 
+go to main.c and change delay_ms values 
+
+Finally click Build and upload.
+Yes it works!!!
+
 ![Advanced Installation](docs/build_upload.png)
 
 Try with different delays.
