@@ -43,32 +43,33 @@ Flashing development boards via a WCH-Link(E) probe (and SWCLK and/or SWDIO conn
 If successful, once you plug in the WCH-Link(E) device, you should have a "serial port" and "interface"-type device in the Windows device manager.
 
 
-### Ubuntu 20.04 installation:
+### Ubuntu installation:
+
 Make sure you have the Udev rules file. It can be found at 
-</etc/udev/rules.d/99-platformio-udev.rules>
-If not don't worry you can obtain it from internet:
-Open terminal in any location:
-type  or paste 
-<curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules>
+```
+/etc/udev/rules.d/99-platformio-udev.rules
+```
+If not, type the following in the terminal
+```
+curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
+```
 
-then insert this command in terminal to open that file:
-<sudo -i nano /etc/udev/rules.d/99-platformio-udev.rules>
+Open the file using
+```
+sudo -i nano /etc/udev/rules.d/99-platformio-udev.rules
+```
 
-now append just below the end of file:
-<SUBSYSTEM=="usb", ATTR{idVendor}="1a86", ATTR{idProduct}=="8010", GROUP="plugdev"
+Append the following at the bottom of the file
+```
+SUBSYSTEM=="usb", ATTR{idVendor}="1a86", ATTR{idProduct}=="8010", GROUP="plugdev"
 SUBSYSTEM=="usb", ATTR{idVendor}="4348", ATTR{idProduct}=="55e0", GROUP="plugdev"
-SUBSYSTEM=="usb", ATTR{idVendor}="1a86", ATTR{idProduct}=="8012", GROUP="plugdev">
+SUBSYSTEM=="usb", ATTR{idVendor}="1a86", ATTR{idProduct}=="8012", GROUP="plugdev"
+```
 
-press Ctrl+O to save the file.
+Press `Ctrl+O to` save the file.
 
-Now open VSCode and click platform PIO
-disconect and reconnect mini board.
 
-Go to project explorer section inside vscode 
-go to main.c and change delay_ms values 
-
-Finally click Build and upload.
-Yes it works!!!
+Disconnect and reconnect the VSDSquadronMini for the udev Rules to apply.
 
 ## Understanding Platform IO Development Environment
 
@@ -89,8 +90,6 @@ WIP
 - Under vsdsquadronMini
 - click build
 - click upload
-
-
 
 ![Advanced Installation](docs/build_upload.png)
 
