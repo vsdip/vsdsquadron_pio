@@ -42,6 +42,35 @@ Flashing development boards via a WCH-Link(E) probe (and SWCLK and/or SWDIO conn
 
 If successful, once you plug in the WCH-Link(E) device, you should have a "serial port" and "interface"-type device in the Windows device manager.
 
+
+### Ubuntu installation:
+
+Make sure you have the Udev rules file. It can be found at 
+```
+/etc/udev/rules.d/99-platformio-udev.rules
+```
+If not, type the following in the terminal
+```
+curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/system/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
+```
+
+Open the file using
+```
+sudo -i nano /etc/udev/rules.d/99-platformio-udev.rules
+```
+
+Append the following at the bottom of the file
+```
+SUBSYSTEM=="usb", ATTR{idVendor}="1a86", ATTR{idProduct}=="8010", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}="4348", ATTR{idProduct}=="55e0", GROUP="plugdev"
+SUBSYSTEM=="usb", ATTR{idVendor}="1a86", ATTR{idProduct}=="8012", GROUP="plugdev"
+```
+
+Press `Ctrl+O to` save the file.
+
+
+Disconnect and reconnect the VSDSquadronMini for the udev Rules to apply.
+
 ## Understanding Platform IO Development Environment
 
 WIP
