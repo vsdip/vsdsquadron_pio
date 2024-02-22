@@ -9,23 +9,23 @@ Download and install VSCode from [https://code.visualstudio.com/](https://code.v
 1. Open the "Extensions" sidebar in VSCode.
 2. Search for "PlatformIO" and click "install".
 
-![PlatformIO Extension Installation](docs/pio_extension_install.png)
+![PlatformIO Extension Installation](images/pio_extension_install.png)
 
 ## Install CH32V Platform
 
 1. Expand the PlatformIO sidebar (ant icon) and click "PIO Home".
 
-![PIO Home](docs/pio_home.png)
+![PIO Home](images/pio_home.png)
 
 2.In the PIO Home window, click on the "Platforms" sidebar and choose “Advanced Installation”.
 
-![Advanced Installation](docs/platform_install.png)
+![Advanced Installation](images/platform_install.png)
 
 3.Enter the following repository URL when prompted and press "Install".
 
 > [https://github.com/vsdip/vsdsquadron_pio.git](https://github.com/vsdip/vsdsquadron_pio.git)
 
-![Platform Installation](docs/platform_install_2.png)
+![Platform Installation](images/platform_install_2.png)
 
 The VSDSQUADRON platform should now be successfully installed.
 
@@ -80,17 +80,17 @@ WIP
 - Click on platforms
 - click on vsdsquadron
 
-![Advanced Installation](docs/platform_home.png)
+![Advanced Installation](images/platform_home.png)
 
 - click on Examples
 - click on Import
 
-![Advanced Installation](docs/import_example.png)
+![Advanced Installation](images/import_example.png)
 
 - Under vsdsquadronMini
 - click build
 - click upload
 
-![Advanced Installation](docs/build_upload.png)
+![Advanced Installation](images/build_upload.png)
 
 Try with different delays.

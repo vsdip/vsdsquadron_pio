@@ -1,13 +1,20 @@
 # VSDSQUADRONMini
 [![Build Status](https://github.com/vsdip/vsdsquadron_pio/actions/workflows/main.yml/badge.svg)](https://github.com/vsdip/vsdsquadron_pio/actions)
 
-![VSDSQUADRONMini](docs/SquadronMini_2A.png)
+![VSDSQUADRONMini](images/SquadronMini_2A.png)
 
 Introducing the VSDSquadron Mini, a versatile powerhouse within the RISC-V landscape that elevates your development to new heights. Whether you’re a newcomer delving into the realm of embedded systems or an experienced developer crafting intricate devices, the VSDSquadron Mini is your ideal companion. It seamlessly bridges the gap between theory and practical application, offering an onboard flash programmer with a single-wire programming protocol to jumpstart your projects in education and development with proficiency and ease.
 
 Product link: [VSDSQUADRONMini](https://www.vlsisystemdesign.com/vsdsquadronmini/)
 
 Find the steps to get started [here!](https://github.com/vsdip/vsdsquadron_pio/blob/main/install.md)
+
+## Reference documents
+
+Funtionality reference
+![images/ch32v003f4u6.svg](images/ch32v003f4u6.svg)
+
+Schematics [link](docs/VSDSquadronMini_2A_Schematic.pdf)
 
 ## Acknowledgemnets
 
