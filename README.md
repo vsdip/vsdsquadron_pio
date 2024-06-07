@@ -14,6 +14,9 @@ Find the steps to get started [here!](https://github.com/vsdip/vsdsquadron_pio/b
 Funtionality reference
 ![images/ch32v003f4u6.svg](images/ch32v003f4u6.svg)
 
+Pinout diagram for reference 
+![VSDSQUADRON Mini Pin out.png](https://github.com/ARX-0/vsdsquadron_pio/blob/main/images/VSDSQUADRON%20Mini%20Pin%20out.jpeg)
+
 Schematics [link](docs/VSDSquadronMini_2A_Schematic.pdf)
 
 ## Acknowledgemnets
