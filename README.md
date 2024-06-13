@@ -15,7 +15,7 @@ Funtionality reference
 ![images/ch32v003f4u6.svg](images/ch32v003f4u6.svg)
 
 Pinout diagram for reference 
-![VSDSQUADRON Mini Pin out.png](https://github.com/ARX-0/vsdsquadron_pio/blob/main/images/vsd%20pinout%20image%20.png)
+![VSDSQUADRON Mini Pin out.png](https://github.com/ARX-0/vsdsquadron_pio/blob/main/images/vsd%20pinout%20image%20update%20final%20.png)
 
 Schematics [link](docs/VSDSquadronMini_2A_Schematic.pdf)
 
