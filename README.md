@@ -1,4 +1,5 @@
 # VSDSQUADRONMini
+
 [![Build Status](https://github.com/vsdip/vsdsquadron_pio/actions/workflows/main.yml/badge.svg)](https://github.com/vsdip/vsdsquadron_pio/actions)
 
 ![VSDSQUADRONMini](images/SquadronMini_2A.png)
@@ -14,8 +15,8 @@ Find the steps to get started [here!](https://github.com/vsdip/vsdsquadron_pio/b
 Functionality reference
 ![images/ch32v003f4u6.svg](images/ch32v003f4u6.svg)
 
-Pinout diagram reference 
-![VSDSQUADRON Mini Pin out.png](https://github.com/ARX-0/vsdsquadron_pio/blob/main/images/vsd%20pinout%20image%20update%20final%20.png)
+Pinout diagram reference
+![VSDSQUADRON Mini Pin out.png](images/VSDSquadronMini_pinout.png)
 
 Schematics [link](docs/VSDSquadronMini_2A_Schematic.pdf)
 
