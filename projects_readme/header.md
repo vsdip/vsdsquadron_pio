@@ -57,9 +57,6 @@ To add a new project, follow these steps:
 
 ### Submission Guidelines
 
-- **Alphabetical Listing**  
-  Add the project in alphabetical order based on the project title.
-
 - **Description**  
   Provide a short, single-sentence description of the project.
 
