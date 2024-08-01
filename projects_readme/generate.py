@@ -1,15 +1,16 @@
 import csv
-import sys
 
 def main():
     # Read in CSV file for projects
-    projects = list(csv.DictReader(open("projects.csv", "r"), delimiter=","))
+    with open("projects.csv", "r") as file:
+        reader = csv.DictReader(file, delimiter=",")
+        projects = list(reader)
 
     # Read in README header
     with open('header.md') as f:
         header = f.read().splitlines()
 
-    # Write to README.md
+    # Write to the README.md file located in the parent directory
     with open('../README.md', 'w') as f:
         ################################
         # Printing out old README header
@@ -20,10 +21,17 @@ def main():
         ################################
         # Printing out projects
         ################################
-        print("\n| Project Title     | Author   | Link                               | Description                    |", file=f)
-        print(  "|-------------------|----------|------------------------------------|--------------------------------|", file=f)
+        print("\n| Project Title     | Author   | Description                    |", file=f)
+        print(  "|-------------------|----------|--------------------------------|", file=f)
         for x in projects:
-            print(f"| {x['Project Title']} | {x['Author']} | {x['Link']} | {x['Description']} |", file=f)
+            try:
+                # Create the link for the project title
+                project_title = f"[{x['Project Title']}]({x['Link']})"
+                print(f"| {project_title} | {x['Author']} | {x['Description']} |", file=f)
+            except KeyError as e:
+                print(f"Error: Missing key in row: {e}")
+                print(f"Row content: {x}")
+                continue
 
 if __name__ == '__main__':
     main()
