@@ -82,6 +82,3 @@ Make sure all fields are correctly filled out, with proper Markdown syntax for t
 
 --- 
 
-| Project Title     | Author   | Link                               | Description                    |
-|-------------------|----------|------------------------------------|--------------------------------|
-| Yatharth's Test | Yatharth | [Check this out](https://yatharthagarwal.net/) | I just want to check if this works |
