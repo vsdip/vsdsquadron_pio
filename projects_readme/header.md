@@ -75,7 +75,7 @@ To add a new project, follow these steps:
 ### Example Entry
 
 ```
-Example Project,Jane Doe,[Website](https://example.com),An example project demonstrating best practices.
+Example Project,Jane Doe,https://example.com,An example project demonstrating best practices.
 ```
 
 Make sure all fields are correctly filled out, with proper Markdown syntax for the links. The generated README will reflect these changes, ensuring consistency and accuracy across the documentation.
