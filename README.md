@@ -85,5 +85,4 @@ Make sure all fields are correctly filled out, with proper Markdown syntax for t
 
 | Project Title     | Author   | Description                    |
 |-------------------|----------|--------------------------------|
-| [Yatharth's Test](https://yatharthagarwal.net/) | Yatharth | I just want to check if this works |
 | [RISC-V Mini Game Console](https://github.com/tejasopp/VSD_mini_ResearchInternship) | Tejas Anil Chaudhari | The Handheld Gaming Console project integrates a RISC-V microcontroller to create a portable gaming system featuring an OLED display and tactile buttons. This console allows users to play classic games like Snake and Pong with the RISC-V microcontroller managing game logic user input and rendering graphics. Additionally a sound module provides audio feedback to enhance the gaming experience. This project demonstrates the innovative use of RISC-V technology in creating an immersive and interactive gaming solution. |
