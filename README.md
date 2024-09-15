@@ -20,6 +20,10 @@ Pinout diagram reference
 
 Schematics [link](docs/VSDSquadronMini_2A_Schematic.pdf)
 
+## Making Custom PCBs for VSDSquadron Mini
+
+Details for making a custom project utilizing the VSDsquadron Mini can be found in the [pcb_libraries](pcb_libraries) folder.
+
 ## Acknowledgemnets
 
 This work is a modification of the projects available at [https://github.com/Community-PIO-CH32V/platform-ch32v](https://github.com/Community-PIO-CH32V/platform-ch32v). The VSD team expresses sincere gratitude to the open-source community for their valuable contributions.
